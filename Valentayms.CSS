@@ -1,0 +1,222 @@
+.image-container {
+    display: inline-flex; /* Arrange images in a row */
+}
+
+.image-container img {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin: 5px; /* Add some spacing between images */
+}
+
+h1 {
+
+	font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: courier;
+	color: fafc97;
+}
+
+.flowers {
+    display: block;
+    margin: auto; /* Center the image horizontally */
+}
+
+h2 {
+	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: courier;
+	color: fafc97;
+}
+
+body {
+  background-color: FAAED2;
+}
+
+.smoile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.rahh {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.datedate {
+	
+	margin: 0 auto;
+            /* Set width for demonstration */
+            width: 50%;
+            /* Add some padding for clarity */
+            padding: 20px;
+}
+
+h4.weh {
+	
+	text-align: center:
+}
+
+label {
+	font-family: courier;
+	color: fafc97;
+	font-weight:bold;
+}
+
+.lamaw {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: courier;
+	color: black;
+	font-weight: bold;
+}
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.tara button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.tara button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.submit button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.submit button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.nxt button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.nxt button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+  
+.last button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.last button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.yey button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.yey button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.yes button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.yes button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.no button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.no button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}
+
+.baliw button{
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.baliw button:hover {
+  background-color: fafc97;
+  color: pink;
+  font-weight: bold;
+}

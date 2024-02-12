@@ -1,0 +1,68 @@
+
+<html>
+
+<head>
+    <title>Valentayms</title>
+    <link rel="icon" href="heartheart.png">
+    <link rel="stylesheet" href="Valentayms.css">
+</head>
+
+<body>
+    <h1>Whatchu layk for dessertttt?</h1>
+    <div class="image-container">
+        <div class="image-item">
+            <img src="milktea.jpg" alt="milktea">
+            <label>
+                <input type="radio" name="dessert" value="milktea">
+                milktea
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="icecream.jpg" alt="icecream">
+            <label>
+                <input type="radio" name="dessert" value="icecream">
+                icecream
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="cake.jpg" alt="cake">
+            <label>
+                <input type="radio" name="dessert" value="cake">
+                cake
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="churros.jpg" alt="churros">
+            <label>
+                <input type="radio" name="dessert" value="churros">
+                Churros
+            </label>
+        </div>
+    </div>
+	<div class="container">
+	<div class="center">
+        <a href="Valentayms6.html" onclick="submitValue()" class="last"><button>LAST NA TO!</button></a>
+    </div>
+	</div>
+
+    <script>
+        function submitValue() {
+            // Get the selected dessert option
+            var selectedDessert = document.querySelector('input[name="dessert"]:checked');
+
+            // Check if any option is selected
+            if (selectedDessert) {
+                // Store the selected dessert in localStorage
+                localStorage.setItem('selectedDessert', selectedDessert.value);
+
+                // Redirect to the next page
+                window.location.href = 'Valentayms6.html';
+            } else {
+                // If no option is selected, show an alert
+                alert("Please select a dessert.");
+            }
+        }
+    </script>
+</body>
+
+</html>

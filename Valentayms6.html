@@ -1,0 +1,60 @@
+<html>
+
+	<head>
+		
+		<title>Valentayms</title>
+			<link rel="icon" href="heartheart.png">
+			<link rel ="stylesheet" href="Valentayms.css">
+	</head>
+	
+	<body>
+	<h1>Where afterrr?</h1>
+	<div class="image-container">
+	   <div class="image-item">
+            <img src="park.jpg" alt="park">
+            <label>
+                <input type="radio" name="wher" value="park">
+                park
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="arcade.jpg" alt="arcade">
+            <label>
+                <input type="radio" name="wher" value="arcade">
+                arcade
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="museum.jpg" alt="museum">
+            <label>
+                <input type="radio" name="wher" value="museum">
+                museum
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="stroll.jpg" alt="stroll">
+            <label>
+                <input type="radio" name="wher" value="stroll">
+                strolllllll
+            </label>
+	<div class="container">
+	<div class="center">
+	 <a href="Valentayms7.html" onclick="submitValue()" class="yey"><button>YEYYY</button></a>
+	 </div>
+	 </div>
+    <script>
+        function submitValue() {
+            var selectedPlace = document.querySelector('input[name="wher"]:checked');
+
+            if (selectedPlace) {
+                localStorage.setItem('selectedPlace', selectedPlace.value);
+                window.location.href = 'Valentayms7.html'; // Redirect to the next page
+            } else {
+                alert("Please select a place.");
+            }
+        }
+    </script>
+
+	</body>
+
+</html>

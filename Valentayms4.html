@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Valentayms</title>
+    <link rel="icon" href="heartheart.png">
+    <link rel="stylesheet" href="Valentayms.css">
+</head>
+
+<body>
+    <h1>Whatchu layk to EATTTTT?</h1>
+    <p>Choose 2 only</p>
+    <div class="image-container">
+        <div class="image-item">
+            <img src="chicken.jpeg" alt="Chicken">
+            <label>
+                <input type="checkbox" name="food" value="chicken">
+                Chicken
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="pizza.jpg" alt="Pizza">
+            <label>
+                <input type="checkbox" name="food" value="pizza">
+                Pizza
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="pasta.jpg" alt="Pasta">
+            <label>
+                <input type="checkbox" name="food" value="pasta">
+                Pasta
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="sushi.jpg" alt="Sushi">
+            <label>
+                <input type="checkbox" name="food" value="sushi">
+                Sushi
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="dumplings.jpg" alt="Dumplings">
+            <label>
+                <input type="checkbox" name="food" value="dumplings">
+                Dumplings
+            </label>
+        </div>
+        <div class="image-item">
+            <img src="borgir.jpg" alt="Burger">
+            <label>
+                <input type="checkbox" name="food" value="burger">
+                Borgir
+            </label>
+        </div>
+    </div>
+		<div class="container">
+	<div class="center">
+
+    <a href="Valentayms5.html" onclick="submitValue()" class="nxt"><button>Nexttt</button></a>
+	</div>
+	</div>
+    <script>
+        function submitValue() {
+            // Get all selected checkboxes
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+
+            // Check if exactly 2 checkboxes are selected
+            if (checkboxes.length === 2) {
+                var selectedFoods = [];
+                // Loop through each selected checkbox and store its value in the selectedFoods array
+                checkboxes.forEach(function(checkbox) {
+                    selectedFoods.push(checkbox.value);
+                });
+                // Construct the URL with selectedFoods as a query parameter
+                var nextPageUrl = "Valentayms5.html?foods=" + encodeURIComponent(selectedFoods.join(','));
+                // Redirect to the next page
+                window.location.href = nextPageUrl;
+            } else {
+                // If not exactly 2 checkboxes are selected, show an alert
+                alert("Please select exactly 2 food options.");
+            }
+        }
+    </script>
+	
+	
+</body>
+
+</html>
